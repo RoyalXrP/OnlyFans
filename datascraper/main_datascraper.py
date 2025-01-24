@@ -18,7 +18,7 @@ import modules.starsavn as m_starsavn
 api_helper = OnlyFans.api_helper
 
 
-def start_datascraper():
+def start_datascraper():true
     parser = ArgumentParser()
     parser.add_argument("-m", "--metadata", action='store_true',
                         help="only exports metadata")
