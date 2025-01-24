@@ -50,7 +50,7 @@ def session_rules(session, link):
 def session_retry_rules(r, link):
     # 0 Fine, 1 Continue, 2 Break
     boolean = 0
-    if "https://onlyfans.com/api2/v2/" in link:
+    if "https://onlyfans.com/api2/v2/" in link:1
         text = r.text
         if "Invalid request sign" in text:
             boolean = 1
